@@ -1,0 +1,23 @@
+package com.example.matah.cobasql.Model;
+
+/**
+ * Created by inna on 27/07/2018.
+ */
+
+public class Gejala {
+    private String ID;
+    private String gejala;
+
+    public String getID() {
+        return ID;
+    }
+
+    public String getGejala() {
+        return gejala;
+    }
+
+    public Gejala(String ID, String gejala) {
+        this.ID = ID;
+        this.gejala = gejala;
+    }
+}
