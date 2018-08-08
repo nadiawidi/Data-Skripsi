@@ -1,0 +1,47 @@
+Jadi gue kan kmrin ada database pertanyaan, isinya Id sama gejala
+NG01 : Demam
+NG02	Kulit menguning
+NG03	Kejang – kejang
+NG04	Bersin – bersin
+NG05	Bengkak di sekitar perut
+NG06	Kulit membiru
+NG07	Megap – megap
+NG08	Nafas tidak teratur
+NG09	Menggigil
+NG10	Menangis berlebihan
+NG11	Muntah
+NG12	Tidak menghisap ASI secara Efektif
+NG13	Keluar Nanah disekitar pusat
+NG14	Mata bernanah
+NG15	Flue
+NG16	Tinja pucat / berair
+NG17	Kulit memerah
+NG18	Perut Membuncit
+NG19	Kulit bilur – bilur
+NG20	Mata menguning
+NG21	Cairan Muntah Kuning
+NG22	Wajah, dada, dan perut menguning
+NG23	Batuk
+trs ada halaman Penyakit
+
+halamaan penyakitnya misal ini ya
+JP01	Kekurangan ASI.XML
+JP02	Virus.XML
+JP03	Tali Pusat.XML
+JP04	Kedinginan.XML
+JP05	Ikhterus.XML
+JP06	Infeksi Bakteri.XML
+JP07	Pneumonia.XML
+JP08	Gumoh.XML
+JP09	Alergi.XML
+
+nah jdi
+If NG01 + NG02 + NG03 + NG12 + NG20 + NG21 + NG 22 = kekuranganASI.xml
+If NG03 + NG15 + NG16 + NG19 + NG23 = VIRUS.XML
+IF NG05 + NG10 + NG13 + NG17 = TALIPUSAT.XML
+IF NG01 +NG06 + NG07 + NG08 = KEDINGINANN.XML
+IF NG02 +NG14 + NG16 +NG20 + NG22 = IKHTERUS.XML
+IF NG01 +NG08 + NG12 = INFEKSIBAKTERI.XML
+IF NG01 + NG06 + NG08 + NG11 + NG23 = PNUEMONIA.XML
+IF NG08 + NG10 + NG11 + NG18 + NG21 = GUMOH
+IF NG04 + NG11 + NG16 + NG17 + NG19 + NG23 = ALERGI.XML
