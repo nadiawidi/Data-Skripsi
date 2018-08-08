@@ -1,0 +1,25 @@
+package com.example.matah.cobasql.ViewHolder;
+
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
+
+import com.example.matah.cobasql.R;
+
+/**
+ * Created by inna on 27/07/2018.
+ */
+
+public class GejalaViewHolder extends RecyclerView.ViewHolder {
+    public CheckBox cb;
+
+
+    public GejalaViewHolder(View itemView){
+        super(itemView);
+
+        cb = (CheckBox) itemView.findViewById(R.id.gejala_checkbox);
+    }
+
+}
