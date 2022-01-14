@@ -1,1 +1,1 @@
-# pusing
+# Data gejala
